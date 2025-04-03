@@ -8,7 +8,7 @@ modules:
 bannerBrand:
   bgImage: '/bg.svg'
   title: Truwel Cloud 2.0
-  description: 专业的气象物联网SAAS大数据平台
+  description: 专业的气象物联网SAAS大数据AI平台
   tagline: 合作伙伴:中国林业科学研究院、中国科学院新疆生态与地理研究所、中国科学院青藏高原研究所、中国生态系统研究网络(CERN)...
   buttons:
     - { text: 快速体验, link: 'https://www.truwelcloud.com' }
@@ -19,8 +19,11 @@ isShowTitleInHome: true
 actionText: About
 actionLink: /views/other/about
 features:
-  - title: 数据分析
-    details: 帮助科研人员进行数据挖掘、数据预测
+  - title: AI分析
+    details: 通过大语言模型帮助科研人员进行数据挖掘、数据预测
+    
+  - title: 大数据
+    details: 基于大数据架构设计,性能优越
 
   - title: 站点管理
     details: 水文、积雪、土壤、大气、生物...各种数据全都支持
@@ -33,15 +36,21 @@ features:
 
   - title: 物联网
     details: 提供海量气象设备上云,安全可靠的设备连接通信能力
-
-  - title: 大数据
-    details: 基于大数据架构设计,性能优越
+  
 footer:
   startYear: 2022
 ---
 
 
 ## 更新日志
+
+### 2.3.0
+
+- [x] 正式接入**DeepSeek**实现对话即服务
+
+### 2.2.0
+
+- [x] 中英俄国际化显示
 
 ### 2.1.0
 

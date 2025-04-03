@@ -20,6 +20,7 @@ description: TruwelCloud主要特性是什么
 - <Badge text="支持国内外数采数据接入"/>
 - <Badge text="保证用户之间绝对的权限隔离"/>
 - <Badge text="支持物候照片及数据文件管理"/>
+- <Badge text="接入`Deepseek`实现对话即服务"/>
 - <Badge text="应用接口符合`RESTful API`规范"/>
 - <Badge text="支持符合国标GB28181监控视频接入"/>
 - <Badge text="可部署在用户`Windows`/`Linux`服务器"/>

@@ -6,12 +6,13 @@ export const series = {
         { text: '主要特性', link: '/introduction/about' },
         { text: '系统要求', link: '/introduction/requirement' },
         { text: '技术架构', link: '/introduction/architecture' }
-        
+
       ]
     },
     {
       text: '指南',
       children: [
+        { text: 'AI分析', link: '/guide/chat' },
         { text: '注册', link: '/guide/register' },
         { text: '首页', link: '/guide/home' },
         { text: '站点数据', link: '/guide/data' },
@@ -24,7 +25,7 @@ export const series = {
       text: '更新日志',
       children: [
         { text: '更新日志', link: '/release/log' }
-      ] 
+      ]
     }
   ]
 }

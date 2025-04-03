@@ -6,6 +6,11 @@ category:
 description: TruwelCloud技术架构
 ---
 
+## AI
+
+将`Agent`与`工作流`深度融合,打造出"对话即服务"的全新大数据平台
+<div align=center><img src="../_media/ai-architecture.png" width="70%"/></div>
+
 ## 视频
 
 视频监控`信令服务`与`流媒体服务`均采用成熟框架自主搭建,更加注重用户监控数据安全
