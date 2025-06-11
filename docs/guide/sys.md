@@ -1,6 +1,6 @@
 ---
 title: 系统管理
-order: 5
+order: 7
 category:
 - 指南
 description: 系统管理

@@ -1,6 +1,6 @@
 ---
 title: 首页
-order: 2
+order: 4
 category:
 - 指南
 description: 首页介绍

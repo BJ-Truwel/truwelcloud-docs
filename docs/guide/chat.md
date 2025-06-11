@@ -1,6 +1,6 @@
 ---
 title: AI分析
-order: 2
+order: 1
 category:
 - 指南
 description: 大模型对话

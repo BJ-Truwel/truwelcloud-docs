@@ -1,6 +1,6 @@
 ---
 title: 站点数据
-order: 3
+order: 5
 category:
 - 指南
 description: 站点数据

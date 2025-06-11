@@ -1,6 +1,6 @@
 ---
 title: 系统监控
-order: 4
+order: 6
 category:
 - 指南
 description: 系统监控

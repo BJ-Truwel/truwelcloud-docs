@@ -6,6 +6,10 @@ category:
 description: TruwelCloud release log
 ---
 
+### 2.4.0
+
+- [x] 支持微信小程序查询
+
 ### 2.3.0
 
 - [x] 正式接入**DeepSeek**实现对话即服务

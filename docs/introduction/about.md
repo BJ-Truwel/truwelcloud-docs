@@ -12,6 +12,7 @@ description: TruwelCloud主要特性是什么
 <div align=center><img src="../_media/solution.png" width="70%"/></div>
 
 - <Badge text="前端页面响应式布局"/>
+- <Badge text="支持微信小程序查询"/>
 - <Badge text="支持LAS点云数据接入"/>
 - <Badge text="支持`MQTT`消息接入"/>
 - <Badge text="支持`北斗三号`消息接入"/>

@@ -1,6 +1,6 @@
 ---
 title: 注册
-order: 1
+order: 3
 category:
 - 指南
 description: 注册
