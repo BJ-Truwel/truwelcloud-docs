@@ -6,6 +6,10 @@ category:
 description: TruwelCloud release log
 ---
 
+### 2.5.0
+
+- [x] 支持自研DL800数据接入
+
 ### 2.4.0
 
 - [x] 支持微信小程序查询

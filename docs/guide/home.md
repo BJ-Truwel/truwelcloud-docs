@@ -26,7 +26,7 @@ description: 首页介绍
 <div align=center>
 <span style="width:50%;display:inline-block">
 
-![](../_media/dashboard_egi.png)
+![](../_media/dashboard_exhibition_latest.png)
 
 </span>
 <span style="width:50%;display:inline-block">
