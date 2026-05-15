@@ -8,27 +8,23 @@ description: 站点数据
 
 ## 气象数据
 
-<div align=center><img src="../_media/analysis_data_split.gif" width="70%"/></div>
-
-> **提示：** 可以拖拽中间区域:point_left:调整左右显示比例
-
 #### 数据图表
 
-<div align=center><img src="../_media/analysis_classification.png" width="70%"/></div>
+<div align=center><img src="../_media/analysis_classification.jpg" width="70%"/></div>
 
-默认显示第1个表格前两个字段的最近24小时数据，可通过设置按钮进行参数和间隔时间的选择，通过点击左边树形列表进行站点切换显示
+默认显示第 1 个数据前两个字段的近 24 小时数据，可通过设置按钮进行参数和间隔时间的选择，通过点击左边树形列表进行站点切换显示
 
 > **提示：** 树形列表可按照系统类型进行划分展示;支持参数中:cn:英:us:显示、单位显示
 
 #### 最新数据
 
-<div align=center><img src="../_media/analysis_data_realtime.png" width="70%"/></div>
+<div align=center><img src="../_media/analysis_data_realtime.jpg" width="70%"/></div>
 
-展示表格最新一条数据，同样可以通过点击左边树形列表进行站点切换显示
+展示表格最新 1 条数据，同样可以通过点击左边树形列表进行站点切换显示
 
 #### 数据分析
 
-<div align=center><img src="../_media/analysis_data_diagram.png" width="70%"/></div>
+<div align=center><img src="../_media/analysis_data_diagram.jpg" width="70%"/></div>
 
 在这里可以对数据进行更细化的分析，包括`折线图`、`散点图`、`风玫瑰`、`梯度图`、`列表`，可以对数据进行列表下载或打包下载
 
@@ -36,11 +32,11 @@ description: 站点数据
 
 ### 物候数据
 
-<div align=center><img src="../_media/analysis_img_normal.png" width="50%"/><img src="../_media/analysis_img_ndvi.png" width="50%"/></div>
+<div align=center><img src="../_media/analysis_img_normal.jpg" width="50%"/><img src="../_media/analysis_img_roi.jpg" width="50%"/></div>
 
-平台按照物候图片的类型进行分类展示，后期将增加GCC实时计算功能
+平台按照物候图片的类型进行分类展示，支持 NDVI、GNDVI、NDRE、OSAVI、LCI 等指数计算
 
-> :camera: 目前支持`CCFC`、`NetCam`、`PhotoNet`等市面主流物候相机
+> :camera: 目前支持`CCFC`、`NetCam`、`PhotoNet`、`HikVision`等市面主流物候相机
 
 ### 点云数据
 
@@ -65,18 +61,13 @@ description: 站点数据
 
 > **提示：** 可一、四、九分屏展示
 
-### 原始文件
-
-<div align=center><img src="../_media/analysis_file_unique.png" width="50%"/></div>
-
-平台除了将对接数据直接入库外，不管原始文件是追加模式还是唯一模式都可以很方便地进行管理
 
 ### 数据管理
 
 <div align=center>
 <span style="width:50%;display:inline-block">
 
-![](../_media/analysis_data.png)
+![](../_media/analysis_data.jpg)
 
 </span>
 <span style="width:50%;display:inline-block">

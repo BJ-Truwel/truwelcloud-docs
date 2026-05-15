@@ -13,25 +13,12 @@ description: 首页介绍
 <div align=center>
 <span style="width:50%;display:inline-block">
 
-![](../_media/dashboard_sidebar.jpg)
+![](../_media/dashboard_light.jpg)
 
 </span>
-<span style="width:50%;display:inline-block">
-
-![](../_media/dashboard_topnav.jpg)
-
-</span>
-</div>
-
-<div align=center>
 <span style="width:50%;display:inline-block">
 
 ![](../_media/dashboard_exhibition_latest.png)
-
-</span>
-<span style="width:50%;display:inline-block">
-
-![](../_media/dashboard_exhibition.png)
 
 </span>
 </div>
@@ -44,7 +31,7 @@ description: 首页介绍
 </span>
 <span style="width:50%;display:inline-block">
 
-![](../_media/dashboard4.png)
+![](../_media/dashboard_exhibition.png)
 
 </span>
 </div>

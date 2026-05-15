@@ -14,7 +14,7 @@ export const series = {
       children: [
         { text: 'AI分析', link: '/guide/chat' },
         { text: '小程序', link: '/guide/wechat' },
-        { text: '注册', link: '/guide/register' },
+        // { text: '注册', link: '/guide/register' },
         { text: '首页', link: '/guide/home' },
         { text: '站点数据', link: '/guide/data' },
         { text: '系统监控', link: '/guide/monitor' },

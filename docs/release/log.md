@@ -6,6 +6,10 @@ category:
 description: TruwelCloud release log
 ---
 
+### 2.6.0
+
+- [x] UI 全面升级
+
 ### 2.5.0
 
 - [x] 支持自研DL800数据接入
