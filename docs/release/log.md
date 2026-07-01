@@ -6,13 +6,17 @@ category:
 description: TruwelCloud release log
 ---
 
+### 2.7.0
+
+- [x] 支持 DL800、Campbell 数采管理
+
 ### 2.6.0
 
 - [x] UI 全面升级
 
 ### 2.5.0
 
-- [x] 支持自研DL800数据接入
+- [x] 支持自研 DL800 数据接入
 
 ### 2.4.0
 
@@ -20,7 +24,7 @@ description: TruwelCloud release log
 
 ### 2.3.0
 
-- [x] 正式接入**DeepSeek**实现对话即服务
+- [x] 正式接入 **DeepSeek** 实现对话即服务
 
 ### 2.2.0
 
@@ -28,7 +32,7 @@ description: TruwelCloud release log
 
 ### 2.1.0
 
-- [x] 支持CERN土壤水标准格式
+- [x] 支持 CERN 土壤水标准格式
 - [x] 支持区域土壤水标准格式
 - [x] 支持北斗三号数据接入
 

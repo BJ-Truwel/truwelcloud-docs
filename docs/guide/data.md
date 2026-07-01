@@ -1,12 +1,12 @@
 ---
-title: 站点数据
-order: 5
+title: 站点监测
+order: 4
 category:
 - 指南
-description: 站点数据
+description: 站点监测
 ---
 
-## 气象数据
+## 气象监测
 
 #### 数据图表
 
@@ -30,7 +30,11 @@ description: 站点数据
 
 > **提示：** 参数可以随意组合，支持跨站点数据分析
 
-### 物候数据
+### 数采设备
+
+<div align=center><img src="../_media/analysis_device.png" width="70%"/></div>
+
+### 物候监测
 
 <div align=center><img src="../_media/analysis_img_normal.jpg" width="50%"/><img src="../_media/analysis_img_roi.jpg" width="50%"/></div>
 
@@ -38,7 +42,7 @@ description: 站点数据
 
 > :camera: 目前支持`CCFC`、`NetCam`、`PhotoNet`、`HikVision`等市面主流物候相机
 
-### 点云数据
+### 点云监测
 
 <div align=center>
 <span style="width:50%;display:inline-block">
@@ -55,14 +59,14 @@ description: 站点数据
 
 > :cloud: 目前仅支持`LAS`格式点云
 
-### 视频监控
+### 视频监测
 
 <div align=center><img src="../_media/analysis_video.png" width="50%"/></div>
 
 > **提示：** 可一、四、九分屏展示
 
 
-### 数据管理
+### 数据下载
 
 <div align=center>
 <span style="width:50%;display:inline-block">
@@ -97,6 +101,15 @@ description: 站点数据
 </div>
 
 > **提示：** 可按周、月和季度定时生成:page_facing_up:
+
+### 传输监测
+
+<div align=center><img src="../_media/monitor_transmit.jpg" width="70%"/></div>
+
+对数据传输状态进行实时监控
+
+> 1. 蓝色 → 正常
+> 2. 红色 → 离线
 
 ### 系统详情
 

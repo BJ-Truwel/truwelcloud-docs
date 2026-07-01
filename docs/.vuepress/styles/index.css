@@ -1,3 +1,84 @@
+/* ===================================================================
+ * TruwelCloud Docs — 自定义样式增强
+ * 品牌主色: #5D67E8
+ * 目标: 在不改动主题的前提下, 优化图片、卡片、引用块等的视觉与交互
+ * =================================================================== */
+
+:root {
+  --tw-brand: #5d67e8;
+  --tw-brand-rgb: 93, 103, 232;
+  --tw-radius: 12px;
+  --tw-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
 html {
-    height: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+/* ---------- 正文图片: 圆角、柔和阴影与悬停微交互 ---------- */
+.theme-reco-default-content img {
+  border-radius: var(--tw-radius);
+  box-shadow: 0 6px 20px rgba(17, 24, 39, 0.08);
+  transition: transform 0.35s var(--tw-ease), box-shadow 0.35s var(--tw-ease);
+}
+
+.theme-reco-default-content img:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 14px 36px rgba(var(--tw-brand-rgb), 0.22);
+}
+
+html.dark .theme-reco-default-content img {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+}
+
+/* ---------- 引用块 / 提示: 品牌色左边框与淡底 ---------- */
+.theme-reco-default-content blockquote {
+  border-left: 4px solid var(--tw-brand);
+  border-radius: 0 8px 8px 0;
+  background: rgba(var(--tw-brand-rgb), 0.06);
+  padding: 0.8em 1em;
+}
+
+html.dark .theme-reco-default-content blockquote {
+  background: rgba(var(--tw-brand-rgb), 0.12);
+}
+
+/* ---------- 首页特性卡片: 悬停浮起与品牌色描边 ---------- */
+.features__container .features__item {
+  border: 1px solid rgba(var(--tw-brand-rgb), 0.08);
+  border-radius: 14px;
+  transition: transform 0.3s var(--tw-ease), box-shadow 0.3s var(--tw-ease),
+    border-color 0.3s var(--tw-ease);
+}
+
+.features__container .features__item:hover {
+  transform: translateY(-6px);
+  border-color: rgba(var(--tw-brand-rgb), 0.35);
+  box-shadow: 0 16px 40px rgba(var(--tw-brand-rgb), 0.14);
+}
+
+.features__container .features__item h4 {
+  transition: color 0.3s var(--tw-ease);
+}
+
+.features__container .features__item:hover h4 {
+  color: var(--tw-brand);
+}
+
+/* ---------- 首页横幅按钮: 悬停平滑上浮 ---------- */
+.banner-brand__content .btn-group .xicon-container {
+  transition: transform 0.25s var(--tw-ease), box-shadow 0.25s var(--tw-ease);
+}
+
+.banner-brand__content .btn-group .xicon-container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(var(--tw-brand-rgb), 0.28);
+}
+
+/* ---------- 正文标题: 悬停显示品牌色锚点 (与主题一致的过渡) ---------- */
+.theme-reco-default-content h2,
+.theme-reco-default-content h3,
+.theme-reco-default-content h4 {
+  scroll-margin-top: 5rem;
 }

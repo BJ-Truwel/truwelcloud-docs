@@ -17,9 +17,9 @@ description: TruwelCloud 系统要求
 - 时序数据库 >= 3.4.0.0
 - 8GiB 内存
 - 5Mbps 带宽  
-- 4vCPU(2.55GHz 3.5 GHz)
-- 100GiB(ESSD PL0硬盘)
-- Windows Server >= 2016 or Ubuntu >= 22.04
+- 4vCPU(2.55GHz ~ 3.5GHz)
+- 100GiB(ESSD PL0 硬盘)
+- Ubuntu >= 22.04
 
 ## 浏览器支持
 

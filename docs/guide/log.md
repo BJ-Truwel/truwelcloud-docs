@@ -1,6 +1,6 @@
 ---
 title: 日志管理
-order: 8
+order: 6
 category:
 - 指南
 description: 日志管理
