@@ -1,24 +1,24 @@
 ---
-title: 首页
+title: 可视化大屏
 order: 3
 category:
 - 指南
-description: 首页介绍
+description: 可视化大屏
 ---
 
-:bar_chart: 系统页面分为三大部分，菜单栏用于切换不同功能，导航栏用于展示用户信息、报警信息以及路由信息，主区域展示各种数据信息；首页大屏可根据用户需求定制不同样式
+可视化大屏支持按用户需求定制展示样式。
 
-> :100: 支持皮肤切换、自定义展示数据、分组全屏功能、左侧或顶部菜单栏切换
+> 支持皮肤切换、展示数据自定义与分组全屏。
 
 <div align=center>
 <span style="width:50%;display:inline-block">
 
-![](../_media/dashboard_light.jpg)
+![](../_media/dashboard_light.webp)
 
 </span>
 <span style="width:50%;display:inline-block">
 
-![](../_media/dashboard_exhibition_latest.png)
+![](../_media/dashboard_exhibition_latest.webp)
 
 </span>
 </div>
@@ -26,12 +26,12 @@ description: 首页介绍
 <div align=center>
 <span style="width:50%;display:inline-block">
 
-![](../_media/dashboard3.png)
+![](../_media/dashboard3.webp)
 
 </span>
 <span style="width:50%;display:inline-block">
 
-![](../_media/dashboard_exhibition.png)
+![](../_media/dashboard_exhibition.webp)
 
 </span>
 </div>

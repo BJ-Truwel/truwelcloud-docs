@@ -11,30 +11,30 @@ description: 系统管理
 <div align=center>
 <span style="width:50%;display:inline-block">
 
-![](../_media/sys_user.png)
+![](../_media/sys_user.webp)
 
 </span>
 <span style="width:43%;display:inline-block">
 
-![](../_media/sys_user_categories.png)
+![](../_media/sys_user_categories.webp)
 
 </span>
 </div>
 
 
-> 一个用户可以分配多个角色
+> 单个用户可分配多个角色。
 
 ### 角色管理
 
 <div align=center>
 <span style="width:50%;display:inline-block">
 
-![](../_media/sys_role.png)
+![](../_media/sys_role.webp)
 
 </span>
 <span style="width:50%;display:inline-block">
 
-![](../_media/sys_role_permission.png)
+![](../_media/sys_role_permission.webp)
 
 </span>
 </div>
@@ -42,42 +42,42 @@ description: 系统管理
 
 ### 菜单管理
 
-<div align=center><img src="../_media/sys_menu.png" width="70%"/></div>
+<div align=center><img src="../_media/sys_menu.webp" width="70%"/></div>
 
-可以对平台菜单栏内容进行更改，包括名称、顺序、图标等
+支持修改平台菜单的名称、排序与图标等属性。
 
 ### 视频管理
 
 <div align=center>
 <span style="width:50%;display:inline-block">
 
-![](../_media/sys_video_device.png)
+![](../_media/sys_video_device.webp)
 
 </span>
 <span style="width:50%;display:inline-block">
 
-![](../_media/sys_video_channel.png)
+![](../_media/sys_video_channel.webp)
 
 </span>
 </div>
 
-管理监控设备、视频通道、控制云台等
+用于管理监控设备与视频通道，并支持云台控制。
 
 ### 站点管理
 
 <div align=center>
 <span style="width:50%;display:inline-block">
 
-![](../_media/sys_station.png)
+![](../_media/sys_station.webp)
 
 </span>
 <span style="width:50%;display:inline-block">
 
-![](../_media/sys_station_field.png)
+![](../_media/sys_station_field.webp)
 
 </span>
 </div>
 
-平台按照`站点`->`系统`->`数据表`三级进行分类，在`数据表`层可继续细分`数据`、`图片`和`文件`三大类
+平台按`站点` → `系统` → `数据表`三级结构组织数据，`数据表`层下可继续划分为`数据`、`图片`与`文件`三类。
 
-> 平台目前支持`campbell数据`、`mqtt消息`、`本地文件`等多种市面主流数据类型，其他类型可根据需求进行定制开发
+> 平台已支持 `Campbell 数据`、`MQTT 消息`、`本地文件`等主流数据类型，其他类型可按需定制开发。

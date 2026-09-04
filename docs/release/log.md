@@ -6,13 +6,18 @@ category:
 description: TruwelCloud release log
 ---
 
+### 2.8.0
+
+- [x] 支持 DL300 数采设备接入
+- [x] 重构异常检测流程
+
 ### 2.7.0
 
-- [x] 支持 DL800、Campbell 数采管理
+- [x] 支持 DL800、Campbell 数采设备管理
 
 ### 2.6.0
 
-- [x] UI 全面升级
+- [x] UI 界面全面升级
 
 ### 2.5.0
 
@@ -24,11 +29,11 @@ description: TruwelCloud release log
 
 ### 2.3.0
 
-- [x] 正式接入 **DeepSeek** 实现对话即服务
+- [x] 正式接入 **DeepSeek**，实现对话即服务
 
 ### 2.2.0
 
-- [x] 中英俄国际化显示
+- [x] 支持中、英、俄三语国际化显示
 
 ### 2.1.0
 
@@ -38,6 +43,6 @@ description: TruwelCloud release log
 
 ### 2.0.0
 
-- **大数据流式引擎**:tada:
-- 时序数据库存储
-- 容器化部署方式
+- [x] 上线大数据流式引擎
+- [x] 支持时序数据库存储
+- [x] 支持容器化部署

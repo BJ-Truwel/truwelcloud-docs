@@ -9,7 +9,7 @@ bannerBrand:
   bgImage: '/bg.svg'
   title: Truwel Cloud 2.0
   description: 专业的气象物联网 SaaS 大数据 AI 平台
-  tagline: 合作伙伴:中国林业科学研究院、中国科学院新疆生态与地理研究所、中国科学院青藏高原研究所、中国生态系统研究网络（CERN）...
+  tagline: 合作伙伴：中国林业科学研究院、中国科学院新疆生态与地理研究所、中国科学院青藏高原研究所、中国生态系统研究网络（CERN）等
   buttons:
     - { text: 快速体验, link: 'https://www.truwelcloud.com' }
     - { text: '使用指南', link: '/truwelcloud-docs/introduction/about', type: 'plain' }
@@ -19,38 +19,43 @@ isShowTitleInHome: true
 actionText: About
 actionLink: /views/other/about
 features:
-  - title: AI 分析
-    details: 通过大语言模型帮助科研人员进行数据挖掘、数据预测
+  - title: 华益瑞智能体
+    details: 基于华益瑞自主研发的智能体框架 Harness，融合任务理解、智能规划、工具调用与数据分析等核心能力
     
   - title: 大数据
-    details: 基于大数据架构设计,性能优越
+    details: 基于分布式大数据架构设计，具备高吞吐、低延迟的数据处理能力
 
-  - title: 站点管理
-    details: 水文、积雪、土壤、大气、生物...各种数据全都支持
+  - title: 数据分析
+    details: 覆盖水文、积雪、土壤、大气、生物等多类观测数据的接入与分析
 
-  - title: 视频图像
-    details: 完美兼容 GB/T28181 相机、物候相机接入、回看、云存储等功能
+  - title: 物候监控
+    details: 兼容 GB/T 28181 标准协议，支持物候相机接入、历史回看与云端存储
 
   - title: 可视化
-    details: 二三维地图、GIS、图表展示应有尽有
+    details: 提供二三维地图、GIS 与多样化图表展示能力
 
   - title: 物联网
-    details: 提供海量气象设备上云,安全可靠的设备连接通信能力
+    details: 支持海量气象设备上云，提供安全可靠的设备连接与通信能力
   
 footer:
-  startYear: 2022
+  startYear: 2026
 ---
 
 
 ## 更新日志
 
+### 2.8.0
+
+- [x] 支持 DL300 数采设备接入
+- [x] 重构异常检测流程
+
 ### 2.7.0
 
-- [x] 支持 DL800、Campbell 数采管理
+- [x] 支持 DL800、Campbell 数采设备管理
 
 ### 2.6.0
 
-- [x] UI 全面升级
+- [x] UI 界面全面升级
 
 ### 2.5.0
 
@@ -62,11 +67,11 @@ footer:
 
 ### 2.3.0
 
-- [x] 正式接入 **DeepSeek** 实现对话即服务
+- [x] 正式接入 **DeepSeek**，实现对话即服务
 
 ### 2.2.0
 
-- [x] 中英俄国际化显示
+- [x] 支持中、英、俄三语国际化显示
 
 ### 2.1.0
 
@@ -76,6 +81,6 @@ footer:
 
 ### 2.0.0
 
-- **大数据流式引擎**:tada:
-- 时序数据库存储
-- 容器化部署方式
+- [x] 上线大数据流式引擎
+- [x] 支持时序数据库存储
+- [x] 支持容器化部署

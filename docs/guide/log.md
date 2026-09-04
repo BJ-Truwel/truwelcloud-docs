@@ -8,14 +8,14 @@ description: 日志管理
 
 ### 数据告警
 
-<div align=center><img src="../_media/log_warning.png" width="70%"/></div>
+<div align=center><img src="../_media/log_warning.webp" width="70%"/></div>
 
-### 登陆日志
+### 登录日志
 
-<div align=center><img src="../_media/log_login.png" width="70%"/></div>
+<div align=center><img src="../_media/log_login.webp" width="70%"/></div>
 
 ### 操作日志
 
-<div align=center><img src="../_media/log_operate.png" width="70%"/></div>
+<div align=center><img src="../_media/log_operate.webp" width="70%"/></div>
 
-> 操作日志颗粒度可根据用户需求增减
+> 操作日志的记录粒度可按需调整。

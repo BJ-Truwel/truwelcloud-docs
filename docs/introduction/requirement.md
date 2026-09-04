@@ -24,5 +24,5 @@ description: TruwelCloud 系统要求
 ## 浏览器支持
 
 ::: warning 
-不支持`IE`
+不支持 `IE` 浏览器。
 :::

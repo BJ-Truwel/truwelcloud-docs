@@ -6,32 +6,37 @@ category:
 description: 小程序
 ---
 
-云平台提供了微信小程序版本，目前支持蓝牙连接数采，数据、物候和站点查询，扫描:point_down:下方二维码即可进入小程序
-<div align=center><img src="../_media/wechat_mini_qrcode.jpg" width="30%"/></div>
+微信小程序端支持智能体对话、数采设备蓝牙连接、观测数据与物候图片查询等功能。扫描下方二维码即可进入小程序。
+<div align=center><img src="../_media/wechat_mini_qrcode.webp" width="30%"/></div>
 <div align=center>
 <span style="width:25%;display:inline-block">
 
-![](../_media/wechat_home.png)
+![](../_media/wechat_agent.webp)
 
 </span>
 <span style="width:25%;display:inline-block">
 
-![](../_media/wechat_ble.png)
+![](../_media/wechat_home.webp)
 
 </span>
 <span style="width:25%;display:inline-block">
 
-![](../_media/wechat_analysis.png)
+![](../_media/wechat_ble.webp)
 
 </span>
 <span style="width:25%;display:inline-block">
 
-![](../_media/wechat_phenology.png)
+![](../_media/wechat_analysis.webp)
 
 </span>
 <span style="width:25%;display:inline-block">
 
-![](../_media/wechat_station.png)
+![](../_media/wechat_phenology.jpg)
+
+</span>
+<span style="width:25%;display:inline-block">
+
+![](../_media/wechat_station.webp)
 
 </span>
 </div>
